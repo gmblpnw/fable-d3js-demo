@@ -27,6 +27,9 @@ let unsafeJsThis : string = jsNative
 // });
 // Get error:
 // Uncaught TypeError: cyto.cytoscape is not a function
+// let cyto = CytoscapeRoot.cytoscape
+// let mycore = cyto.cytoscape()
+
 let cyto = CytoscapeRoot.cytoscape
 let mycore = cyto.cytoscape()
 
