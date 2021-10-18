@@ -3,6 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Cytoscape.fs" />
     <Compile Include="Fable.Browser.SVG.fs" />
     <Compile Include="D3.fs" />
     <Compile Include="App.fs" />

@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.3.4",
+    "cytoscape": "^3.19.1",
     "d3": "^5.9.2",
     "fable-compiler": "^2.1.12",
     "fable-loader": "^2.1.5",

@@ -16,6 +16,20 @@ d3.selectAll("rect")
 [<Emit("this")>]
 let unsafeJsThis : string = jsNative
 
+// Testing cytoscape with initialization as decribed:
+// https://js.cytoscape.org/#core/initialisation
+// var cy = cytoscape({ /* options */ });
+// You can initialise the core without any options. 
+// If you want to use Cytoscape as a visualisation, 
+// then a container DOM element is required, e.g.:
+// var cy = cytoscape({
+//  container: document.getElementById('cy')
+// });
+// Get error:
+// Uncaught TypeError: cyto.cytoscape is not a function
+let cyto = CytoscapeRoot.cytoscape
+let mycore = cyto.cytoscape()
+
 // This code is ported from:
 // http://christopheviau.com/d3_tutorial/
 // Sections:
